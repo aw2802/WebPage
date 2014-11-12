@@ -57,10 +57,32 @@
     height: 100%;
 }
 
+/** experience page **/
 #resume{
-    width: 900px;
+    background-color: #C3D6A6;
+    width: 1200px;
     height: 1000px;
     position:absolute;
     top: 45%;
-    left:30%;
+    left:15%;
+    border: 5px solid white;
+}
+
+#resume p{
+    position:absolute;
+    left:40%;
+    text-align: center;
+    color:white;
+    font-size: 30px;
+    font-family:"Poiret One";
+}
+
+#photos img{
+    position: absolute;
+}
+
+#photos{
+    width: 180 px;
+    height: 640px;
+    overflow:hidden;
 }
