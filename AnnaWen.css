@@ -15,7 +15,6 @@
     font-family: "Lobster";
     color: white; 
     padding-left:15%;
-    
 }
 
 #nav{
@@ -57,32 +56,33 @@
     height: 100%;
 }
 
+.fotorama{
+    position: absolute;
+    top:40%;
+    left: 17%;
+}
+.fotorama img{
+    border:5px solid white;
+}
+
 /** experience page **/
 #resume{
     background-color: #C3D6A6;
     width: 1200px;
-    height: 1000px;
+    height: 800px;
     position:absolute;
     top: 45%;
     left:15%;
-    border: 5px solid white;
+    border: 10px solid white;
+    overflow: scroll;
 }
 
 #resume p{
     position:absolute;
-    left:40%;
+    left:30%;
     text-align: center;
     color:white;
     font-size: 30px;
     font-family:"Poiret One";
 }
 
-#photos img{
-    position: absolute;
-}
-
-#photos{
-    width: 180 px;
-    height: 640px;
-    overflow:hidden;
-}
