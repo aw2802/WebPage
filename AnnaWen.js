@@ -1,4 +1,5 @@
 $(document).ready(function(){
+	
   $('#toggleButton').click(function(){
     $('#resumetext').toggle();
     
